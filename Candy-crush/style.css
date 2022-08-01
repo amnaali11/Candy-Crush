@@ -1,0 +1,46 @@
+body{
+
+
+background-image:url('images/back.jpg') ;
+}
+
+
+.container{
+width: 500px;
+height: 500px;
+background-color: rgba(31, 31, 31, 0.466);
+margin-top: 20px;
+margin-left:10px;
+padding:10px 0 10px 10px;
+border-radius: 10px;
+margin: auto;
+display: flex;
+flex-wrap: wrap;
+}
+
+
+.score{
+    width: 500px;
+    height: 60px;
+    background-color: rgba(31, 31, 31, 0.466);
+    padding: 5px 5px 0 5px ;
+    text-align: center;
+    margin: auto;
+    margin-top:25px;
+    color:white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-family: courier;
+    font-size :50px;;
+    font-weight: bolder;
+
+}
+.container div{
+
+
+    width: 60px;
+    height: 60px;
+
+}
+
+
