@@ -8,15 +8,10 @@ let colums=8;
 let r1,r2;
 let c1,c2;
 let score=0;
-
-
 let images = ['url(images/blue-candy.png)', 'url(images/green-candy.png)',
     'url(images/orange-candy.png)', 'url(images/purple-candy.png)'
     , 'url(images/red-candy.png)', 'url(images/yellow-candy.png)']
 let container = document.getElementsByClassName('container')[0];
-
-
-
 
 function blockgame() {
     for (let r = 0; r <rows; r++) {
@@ -171,56 +166,6 @@ document.getElementById('score').innerText=score;
 
 
 
-/*
-
-
-for(let c=0;c<colums;c++){
-
-for(let r=0;r<rows-2;r++)
-    {
-    let candy1=arr[r][c];
-    let candy2=arr[r+1][c];
-    let candy3=arr[r+2][c];
-    
-    if(candy1.style.backgroundImage==candy2.style.backgroundImage&&candy2.style.backgroundImage==candy3.style.backgroundImage)
-    
-    {
-  
-    
-    arr[r][c].style.backgroundImage='url(images/back.jpg)';
-    arr[r][c+1].style.backgroundImage='url(images/back.jpg)';
-    arr[r][c+2].style.backgroundImage='url(images/back.jpg)';
-    }
-    
-    }
 
 
 
-
-}
-
-*/
-
-
-/*
-
-
-
-function reorder(){
-    
-}
-function dragStart(){
- currSquare=this;
-swap=this.style.backgroundImage;
-
-}
-function dragOver(){
-otherSquare=this;
-
-}
-
-
-function dragEnd(){
-currSquare.style.backgroundImage=otherSquare.style.backgroundImage;
-otherSquare.style.backgroundImage=swap;
-}*/
